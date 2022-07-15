@@ -12,8 +12,10 @@ const LoginForm = () => {
   const [validated] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
+  //use graphQL login mutation
   const [login] = useMutation(LOGIN_USER);
 
+  //on change handler
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setUserFormData({ ...userFormData, [name]: value });
