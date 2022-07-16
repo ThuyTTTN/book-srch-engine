@@ -10,7 +10,6 @@
     - In the terminal, start the app with `npm start`, then in your enter `https://localhost:3001` in your browser.
 
 - Server side deployment
-    - Clone the repo onto your local computer
     - From the termin, navigate to the server directory with `cd server`, then enter `npm run watch`
     - Navigate to `https://localhost:3001/graphql` to test queries and mutations.
 
