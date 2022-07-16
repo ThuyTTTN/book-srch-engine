@@ -16,7 +16,7 @@ const SignupForm = () => {
   const [showAlert, setShowAlert] = useState(false);
 
   //use graphQL mutation
-  const [ addUser, { error, data } ] = useMutation(ADD_USER);
+  const [ addUser, { error } ] = useMutation(ADD_USER);
 
   useEffect(() => {
     if (error) {
@@ -44,16 +44,7 @@ const SignupForm = () => {
     }
 
     try {
-      // const response = await createUser(userFormData);
-
-      // if (!response.ok) {
-      //   throw new Error('something went wrong!');
-      // }
-
-      // const { token, user } = await response.json();
-      // console.log(user);
-      // Auth.login(token);
-      
+            
       // add the user to the db
       const { data } = await addUser({
         variables: { ...userFormData }
