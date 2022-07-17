@@ -19,9 +19,9 @@
 ![screencapture-localhost-3000-saved-2022-07-16-12_24_51](https://user-images.githubusercontent.com/92459709/179363573-a1bc9687-c5b5-4c5c-8b21-39cb33ce66ea.png)
 
 ## Link to deployed app:
-
+https://radiant-reaches-92760.herokuapp.com/
 
 ### Link to Github:
-
+https://github.com/ThuyTTTN/book-srch-engine
 
 
